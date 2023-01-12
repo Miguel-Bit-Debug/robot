@@ -11,4 +11,3 @@ file = open('cotacao.csv', 'w', newline='', encoding='utf-8')
 
 file.write(cotacoes)
 file.close()
-    
