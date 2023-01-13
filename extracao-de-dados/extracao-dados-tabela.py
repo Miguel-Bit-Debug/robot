@@ -47,4 +47,4 @@ df.columns = ['Data', 'Ultimo', 'Abertura', 'Maxima', 'Minima', 'Vol', 'Var%']
 
 print(df)
 
-
+df.to_csv('dados_da_tabela.csv')
