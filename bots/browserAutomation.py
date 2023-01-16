@@ -10,3 +10,18 @@ pyautogui.press('enter')
 
 time.sleep(3)
 
+with open('membros.csv') as file:
+    next(file)
+
+    for line in file:
+        line = line.strip()
+        line = line.split(';')
+
+        print(f'Dados: {line}')
+
+        name = line[0]
+        sexo = line[1]
+        email = line[2]
+        phone = line[3]
+
+        
