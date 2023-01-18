@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+**/arquivos
+**/bot-linkedin
+
 # C extensions
 *.so
 
